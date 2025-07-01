@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url(./images/camping-1845906.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    margin-top: 50px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to left, white, beige, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+ 
+}
+
+
+.projects-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    margin: 10px 10px;
+    flex: 1 1 calc(50% -20px);
+    max-width: 300px;
+    box-shadow: 10px;
+}
+
+.text {
+    color: rgb(238, 238, 227);
+}
+
+button {
+    background:fixed; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
